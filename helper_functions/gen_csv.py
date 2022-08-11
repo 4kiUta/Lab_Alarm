@@ -8,7 +8,6 @@ dictionary = {'Name': ['Gladys', 'Jose'],
 data = pd.DataFrame(data=dictionary)
 
 ## save the datasets
-data.to_csv('data_gen/team_heart.csv')
-
+data.to_csv('data/team_heart.csv')
 
 
