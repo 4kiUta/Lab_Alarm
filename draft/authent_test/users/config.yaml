@@ -1,0 +1,17 @@
+cookie:
+  expiry_days: 0
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    gladysm:
+      email: gladysmawarni@gmail.com
+      name: gladys
+      password: $2b$12$/gCPx0Xr4xJYpl/DPyupc.NRE57BTqaw7xRVkIKlk.dMy4abLDkjC
+    kingk:
+      email: jose@gmail.com
+      name: J alex P
+      password: $2b$12$uzxNMFLP2Q/3kXqZAk.p.OdJ5zLAv1LCA.xvQGlpISSPyaGikEajm
+preauthorized:
+  emails:
+  - alexandre@gmail.com
