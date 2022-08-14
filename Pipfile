@@ -7,6 +7,9 @@ name = "pypi"
 streamlit = "*"
 pandas = "*"
 mysql-connector-python = "*"
+colorama = "*"
+streamlit-authenticator = "*"
+pyyaml = "*"
 
 [dev-packages]
 
