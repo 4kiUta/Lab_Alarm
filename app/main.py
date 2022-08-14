@@ -4,11 +4,11 @@ import sys
 # adding helper_functions folder to the system path
 ## this way we can import the package /python script inside of it
 
-sys.path.insert(0, '../helper_functions') ## might create problems. ORGANIZE BETTER THE STRUCTURE OF FILES!
-from Anima_creation import Animal
+#sys.path.insert(0, '../helper_functions') ## might create problems. ORGANIZE BETTER THE STRUCTURE OF FILES!
+from packages.Anima_creation import Animal
 
 st.set_page_config(layout="wide")
-st.image('../images/iron-throne.jpg')
+st.image('images/iron-throne.jpg')
 
 ### create containers to separate information
 header = st.container()
@@ -54,7 +54,7 @@ with graf_container:
 
     ## playing around
     ## for better charts might be needed to install 'plotly' module
-    data = pd.read_csv('../data/team_heart.csv')
+    data = pd.read_csv('data/team_heart.csv')
     st.area_chart(data=data['Age'])
 
 
@@ -77,7 +77,7 @@ with form_1:
     if submitted == True:
         animal = Animal(type_ani, name_ani,age_ani, name)
         animal_df = animal.fram_creation()
-        animal_df.to_csv('../data/animal_info.csv', index=False)
+        animal_df.to_csv('data/animal_info.csv', index=False)
 
 if submitted:
     #st.write(animal_df) ## write can also write tables  == st.dataframe(animal_df)

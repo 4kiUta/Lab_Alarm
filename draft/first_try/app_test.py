@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from helper_functions.Anima_creation import Animal
+from packages_test.Anima_creation import Animal
 
 
 
@@ -108,3 +108,4 @@ if submitted:
 
 #st.form_submit_button()
 #https://docs.streamlit.io/library/api-reference/control-flow/st.form
+    
